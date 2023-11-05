@@ -3,13 +3,13 @@ ray tracer written in pure c++, rendered to ppm file format
 
 ## Table of Contents
   - [1.0 must know 3D vector math operations](#must-know-operations)
-    - [1.1 nature of vectors](#the-nature-of-vectors)
-    - [1.2 vector dot products (scalar output)](#vector-dot-products)
-    - [1.3 vector cross products (vector output)](#vector-cross-products)
+    - [1.1 nature of 3d vectors](#the-nature-of-vectors)
+    - [1.2 3d vector dot products (scalar output)](#vector-dot-products)
+    - [1.3 3d vector cross products (vector output)](#vector-cross-products)
     - [1.4 normalized vector reflection equation](#vector-reflection-equation)
   - [2.0 project functionality](#project-functionality)
     - [2.1 3D vectors](#3d-vectors)
-    - [2.2 rays](#rays)
+    - [2.2 light rays](#rays)
     - [2.3 hitable](#hitable)
     - [2.4 hitable list](#hitable-list)
     - [2.5 material](#material)

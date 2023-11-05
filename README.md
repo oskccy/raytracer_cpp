@@ -21,3 +21,12 @@ ray tracer written in pure c++, rendered to ppm file format
     - [3.3 wait times](#wait-times)
   - [4.0 contributions and suggestions](#contributions-and-suggestions)
     - [4.1 pr's](#pull-requests)
+## Must Know Operations
+
+### The Nature of Vectors
+
+### Vector Dot Products
+
+### Vector Cross Products
+
+### Vector Reflection Equation

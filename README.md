@@ -17,12 +17,13 @@ ray tracer written in pure c++, rendered to ppm file format
     - [2.7 rendering bucket](#rendering-bucket)
   - [3.0 setup and usage](#setup-and-usage)
     - [3.1 cloning](#cloning)
-    - [3.2 g++ compiling](#g++-compiling)
-    - [3.3 wait times](#wait-times)
+    - [3.2 c++ dependencies](#cpp-dependencies)
+    - [3.3 g++ compiling](#gpp-compiling)
+    - [3.4 wait times](#wait-times)
   - [4.0 contributions and suggestions](#contributions-and-suggestions)
     - [4.1 pr's](#pull-requests)
 ## Must Know Operations
-
+> in this section, I'll be going over the **must know mathematical concepts** that one must grasp to *understand the functionality of this ray tracer*.
 ### The Nature of Vectors
 
 ### Vector Dot Products
@@ -30,3 +31,38 @@ ray tracer written in pure c++, rendered to ppm file format
 ### Vector Cross Products
 
 ### Vector Reflection Equation
+
+## Project Functionality
+> in this section, I'll be going over **each component and class** of this ray tracer.
+### 3D Vectors
+
+### Rays
+
+### Hitable
+
+### Hitable List
+
+### Material
+
+### Sphere
+
+### Rendering Bucket
+
+## Setup and Usage
+> in this section, I'll be going over **how to get, compile, and run** this ray tracer, as well as other information.
+### Cloning
+
+### CPP Dependencies
+
+### GPP Compiling
+
+### Wait Times
+
+## Contributions and Suggestions
+> in this section, I'll be going over **my style of pull requests**, if you ever contribute (thanks so much if you do).
+### Pull Requests
+
+
+
+
+

@@ -1,5 +1,8 @@
 # raytracer_cpp
-ray tracer written in pure c++, rendered to ppm file format
+
+By: [*Oscar Sharaz Spencer*](https://www.linkedin.com/in/oscar-sharaz/)
+
+ray tracer written in pure c++, which *generates and renders* simple three-dimensional objects.
 
 ## Table of Contents
   - [1.0 must know 3D vector math operations](#must-know-operations)

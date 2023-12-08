@@ -20,11 +20,8 @@ ray tracer written in pure c++, which *generates and renders* simple three-dimen
     - [2.7 rendering bucket](#rendering-bucket)
   - [3.0 setup and usage](#setup-and-usage)
     - [3.1 cloning](#cloning)
-    - [3.2 c++ dependencies](#cpp-dependencies)
-    - [3.3 g++ compiling](#gpp-compiling)
-    - [3.4 wait times](#wait-times)
+    - [3.2 g++ compiling](#gpp-compiling-and-executing)
   - [4.0 contributions and suggestions](#contributions-and-suggestions)
-    - [4.1 pr's](#pull-requests)
 ## Must Know Operations
 > in this section, I'll be going over the **must know mathematical concepts** that one must grasp to *understand the functionality of this ray tracer*.
 ### The Nature of Vectors
@@ -103,16 +100,33 @@ The normalized vector reflection equation is typically expressed as follows: R =
 ## Setup and Usage
 > in this section, I'll be going over **how to get, compile, and run** this ray tracer, as well as other information.
 ### Cloning
+to *download the project locally*, copy/paste and **run the following** in cmd:
+```bash
+git clone https://github.com/oskccy/raytracer_cpp.git
+ls
+```
+### GPP Compiling and Executing
+to *view the code's render* (default or your own designs), <em><a href="https://www3.cs.stonybrook.edu/~alee/g++/g++.html">install the g++ compiler<a/></em> then run:
+```bash
+cd raytracer_cpp
+ls
+g++ main.cpp
+```
+depending on your designs, *this command could result in a 1 - 10 minute hang.* ***(room for contributions here lmao)***
 
-### CPP Dependencies
-
-### GPP Compiling
-
-### Wait Times
+*macOS/Linux:*
+```bash
+ls
+open render.ppm
+```
+*Windows:*
+```bash
+ls
+start render.ppm
+```
 
 ## Contributions and Suggestions
-> in this section, I'll be going over **my style of pull requests**, if you ever contribute (thanks so much if you do).
-### Pull Requests
+> contributing to this project would mean the world to me. *make this better*, ***sumbit pull requests***, because *im not a genius*. thank you so much!
 
 
 

@@ -35,10 +35,10 @@ ray tracer written in pure c++, which *generates and renders* simple three-dimen
 
 Given two 3D vectors: 
 
-A = (Ax, Ay, Az) <br>
-B = (Bx, By, Bz) 
+$A = (Ax,  Ay,  Az)$ <br>
+$B = (Bx,  By,  Bz)$ 
 
-The dot product A · B is computed as: A · B = Ax * Bx + Ay * By + Az * Bz
+The dot product $A · B$ is computed as: $A · B = (AxBx) + (AyBy) + (AzBz)$
 
 
 <p align="center">
@@ -52,14 +52,14 @@ The dot product A · B is computed as: A · B = Ax * Bx + Ay * By + Az * Bz
 
 Given two 3D vectors: 
 
-A = (Ax, Ay, Az) <br>
-B = (Bx, By, Bz) 
+$A = (Ax, Ay, Az)$ <br>
+$B = (Bx, By, Bz)$ 
 
-Calculate the x-component of the resulting vector: **Ay * Bz - Az * By**
+Calculate the x-component of the resulting vector: $AyBz - AzBy$
 
-Calculate the y-component of the resulting vector: **Az * Bx - Ax * Bz**
+Calculate the y-component of the resulting vector: $AzBx - AxBz$
 
-Calculate the z-component of the resulting vector: **Ax * By - Ay * Bx**
+Calculate the z-component of the resulting vector: $AxBy - AyBx$
 
 <p align="center">
   <kbd>
@@ -70,13 +70,13 @@ Calculate the z-component of the resulting vector: **Ax * By - Ay * Bx**
 ### Vector Reflection Equation
 **The normalized vector reflection equation** is used to calculate the ***direction of a vector*** after it ***reflects off a surface***. This is a common concept in physics, computer graphics, and geometry, especially when dealing with light or objects bouncing off surfaces. The equation involves three main components: an incident vector, a surface normal vector, and the reflected vector.
 
-**Incident Vector (I)**: The incident vector represents ***the initial direction*** of a vector, such as a ray of light or an object's velocity, before it interacts with a surface. The incident vector is typically denoted as **I**. 
+**Incident Vector $(I)$**: The incident vector represents ***the initial direction*** of a vector, such as a ray of light or an object's velocity, before it interacts with a surface. The incident vector is typically denoted as **I**. 
 
-**Surface Normal Vector (N)**: The surface normal vector represents ***the direction perpendicular to the surface*** at the point of reflection. It is often denoted as **N**. A surface normal vector is ***always a unit vector***, meaning it has a magnitude of 1, to ensure it represents only the direction. 
+**Surface Normal Vector $(N)$**: The surface normal vector represents ***the direction perpendicular to the surface*** at the point of reflection. It is often denoted as **N**. A surface normal vector is ***always a unit vector***, meaning it has a magnitude of 1, to ensure it represents only the direction. 
 
-**Reflected Vector (R)**: The reflected vector represents ***the direction of the vector*** after it ***reflects*** off the surface. It is often denoted as **R**.
+**Reflected Vector $(R)$**: The reflected vector represents ***the direction of the vector*** after it ***reflects*** off the surface. It is often denoted as $R$.
 
-The normalized vector reflection equation is typically expressed as follows: **R** = **I** - 2 * (**I** · **N**) * **N**
+The normalized vector reflection equation is typically expressed as follows: R = $(I - 2)(I · N)N$
 
 <p align="center">
   <kbd>

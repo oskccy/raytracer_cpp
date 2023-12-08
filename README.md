@@ -2,7 +2,7 @@
 
 By: [*Oscar Sharaz Spencer*](https://www.linkedin.com/in/oscar-sharaz/)
 
-ray tracer written in pure c++, which *generates and renders* simple three-dimensional objects. as this project is pretty hefty, myself and darius desta have created thorough documentation for you to read. thanks.
+ray tracer written in pure c++, which *generates and renders* simple three-dimensional objects. as this project is pretty hefty, myself and [Darius Desta](https://github.com/Darius808) have created thorough documentation for you to read. ***enjoy some renders!***
 
 ## Table of Contents
   - [1.0 must know 3D vector math operations](#must-know-operations)
@@ -25,10 +25,10 @@ ray tracer written in pure c++, which *generates and renders* simple three-dimen
 ## Must Know Operations
 > in this section, I'll be going over the **must know mathematical concepts** that one must grasp to *understand the functionality of this ray tracer*.
 ### The Nature of Vectors
-**Three-dimensional (3D) vectors** are mathematical entities used to represent quantities that have both ***magnitude*** and ***direction*** in three-dimensional space. They are fundamental in ray tracing, in a 3D space, ***objects, positions, directions, and movements*** are defined using coordinates and vectors. Three-dimensional vectors are used to represent points in space, directions of rays, positions of lights, positions of objects, and more.
+***Three-dimensional (3D) vectors*** are mathematical entities used to *represent quantities* that have both ***magnitude*** and ***direction*** in three-dimensional space. They are *fundamental in ray tracing*, in a 3D space, ***objects, positions, directions, and movements*** are defined using coordinates and vectors. Three-dimensional vectors are used to represent points in space, directions of rays, positions of lights, positions of objects, and more.
 
 ### Vector Dot Products
-**The dot product**, also known as the scalar product, is an operation that takes two **3D vectors** and produces **a scalar** (single numerical value) as its result. The dot product is used to determine the similarity or alignment of two vectors and provides information about ***the angle*** between them. Here's how to calculate the dot product of two 3D vectors, typically denoted as A and B: 
+***The dot product***, also known as the *scalar product*, is an operation that takes two **3D vectors** and produces **a scalar** (single numerical value) as its result. The dot product is used to determine the similarity or alignment of two vectors and provides information about ***the angle*** between them. Here's how to calculate the dot product of two 3D vectors, typically denoted as A and B: 
 
 Given two 3D vectors: 
 
@@ -45,18 +45,18 @@ The dot product $A · B$ is computed as: $A · B = (AxBx) + (AyBy) + (AzBz)$
 </p>
 
 ### Vector Cross Products
-**The cross product**, also known as the vector product, is an operation that takes two ***3D vectors*** and produces ***a third vector*** as its result. This new vector is **orthogonal (perpendicular)** to both of the original vectors and provides valuable geometric information about their relationship. Here's how to calculate the cross product of two 3D vectors, typically denoted as A and B: 
+***The cross product***, also known as the *vector product*, is an operation that takes two ***3D vectors*** and produces ***a third vector*** as its result. This new vector is **orthogonal (perpendicular)** to both of the original vectors and provides valuable geometric information about their relationship. Here's how to calculate the cross product of two 3D vectors, typically denoted as A and B: 
 
 Given two 3D vectors: 
 
 $A = (Ax, Ay, Az)$ <br>
 $B = (Bx, By, Bz)$ 
 
-Calculate the x-component of the resulting vector: $AyBz - AzBy$
+*Calculate the x-component of the resulting vector:* $AyBz - AzBy$
 
-Calculate the y-component of the resulting vector: $AzBx - AxBz$
+*Calculate the y-component of the resulting vector:* $AzBx - AxBz$
 
-Calculate the z-component of the resulting vector: $AxBy - AyBx$
+*Calculate the z-component of the resulting vector:* $AxBy - AyBx$
 
 <p align="center">
   <kbd>
@@ -65,7 +65,7 @@ Calculate the z-component of the resulting vector: $AxBy - AyBx$
 </p>
 
 ### Vector Reflection Equation
-**The normalized vector reflection equation** is used to calculate the ***direction of a vector*** after it ***reflects off a surface***. This is a common concept in physics, computer graphics, and geometry, especially when dealing with light or objects bouncing off surfaces. The equation involves three main components: an incident vector, a surface normal vector, and the reflected vector.
+The ***normalized vector reflection equation*** is used to calculate the ***direction of a vector*** after it ***reflects off a surface***. This is a common concept in *physics, computer graphics, and geometry,* especially when dealing with light or objects bouncing off surfaces. The equation involves three main components: an incident vector, a surface normal vector, and the reflected vector.
 
 **Incident Vector $(I)$**: The incident vector represents ***the initial direction*** of a vector, such as a ray of light or an object's velocity, before it interacts with a surface. The incident vector is typically denoted as **I**. 
 
@@ -112,7 +112,7 @@ cd raytracer_cpp
 ls
 g++ main.cpp
 ```
-depending on your designs, *this command could result in a 1 - 10 minute hang.* ***(room for contributions here lmao)***
+depending on your designs, *this command could result in a **1 - 10 minute hang**.* ***(room for contributions here lmao)***
 
 *macOS/Linux:*
 ```bash

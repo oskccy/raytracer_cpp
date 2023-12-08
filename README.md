@@ -2,7 +2,7 @@
 
 By: [*Oscar Sharaz Spencer*](https://www.linkedin.com/in/oscar-sharaz/)
 
-ray tracer written in pure c++, which *generates and renders* simple three-dimensional objects.
+ray tracer written in pure c++, which *generates and renders* simple three-dimensional objects. as this project is pretty hefty, myself and darius desta have created thorough documentation for you to read. thanks.
 
 ## Table of Contents
   - [1.0 must know 3D vector math operations](#must-know-operations)

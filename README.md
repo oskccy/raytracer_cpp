@@ -10,14 +10,6 @@ ray tracer written in pure c++, which *generates and renders* simple three-dimen
     - [1.2 3d vector dot products (scalar output)](#vector-dot-products)
     - [1.3 3d vector cross products (vector output)](#vector-cross-products)
     - [1.4 normalized vector reflection equation](#vector-reflection-equation)
-  - [2.0 project functionality](#project-functionality)
-    - [2.1 3D vectors](#3d-vectors)
-    - [2.2 light rays](#rays)
-    - [2.3 hitable](#hitable)
-    - [2.4 hitable list](#hitable-list)
-    - [2.5 material](#material)
-    - [2.6 sphere](#sphere)
-    - [2.7 rendering bucket](#rendering-bucket)
   - [3.0 setup and usage](#setup-and-usage)
     - [3.1 cloning](#cloning)
     - [3.2 g++ compiling](#gpp-compiling-and-executing)
@@ -80,22 +72,6 @@ The normalized vector reflection equation is typically expressed as follows: R =
     <img src="https://github.com/oskccy/raytracer_cpp/assets/149972489/ba537c47-a75e-4959-93b6-52fee3aa2434" alt="normalizedvector" width="450">
   </kbd>
 </p>
-
-## Project Functionality
-> in this section, I'll be going over **each component and class** of this ray tracer.
-### 3D Vectors
-
-### Rays
-
-### Hitable
-
-### Hitable List
-
-### Material
-
-### Sphere
-
-### Rendering Bucket
 
 ## Setup and Usage
 > in this section, I'll be going over **how to get, compile, and run** this ray tracer, as well as other information.
